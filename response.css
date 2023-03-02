@@ -1,0 +1,283 @@
+@media (max-width:600px) {
+    .navlist {
+        display: none;
+    }
+
+    #home-page-img1 {
+        width: 100%;
+        left: 0%;
+        top: 39%;
+        height: 61%;
+    }
+
+    #home-page-img2 {
+        display: none;
+    }
+
+    #home-page-img3 {
+        display: none;
+    }
+
+    .center-content {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .anim-before {
+        padding: 24px 0px;
+    }
+
+    .anim-before>h1 {
+        font-size: 4vw;
+    }
+    .page-2{
+        min-height: 40vh;
+    }
+    .page-2-center h3 {
+        font-size: 3vw;
+        padding: 23px 0px 23px 0px;
+    }
+
+    .contact {
+        width: 9vw;
+        height: 3vh;
+    }
+
+    .contact>i {
+        margin-left: -1vw;
+    }
+
+    .page-3 {
+        flex-direction: column;
+    }
+
+    #page-3-left {
+        width: 100%;
+    }
+
+    #page-3-img4 {
+        /* display: none; */
+        height: 63vw;
+        top: 22%;
+        left: 19%;
+    }
+
+    #page-3-img3 {
+        /* display: none; */
+        left: 19%;
+        height: 26vw;
+    }
+
+
+    #page-3-img2 {
+        /* display: none; */
+        height: 24vw;
+        top: 42%;
+    }
+
+    #page-3-img1 {
+        /* display: none; */
+        height: 51vw;
+    }
+
+    #page-3-right {
+        width: 100%;
+    }
+
+    #page-3-right>h2 {
+        font-size: 23px;
+        top: 68%;
+        position: absolute;
+    }
+
+    #page-3-right>p {
+        font-size: 12px;
+        line-height: 15px;
+        position: absolute;
+        top: 80%;
+    }
+
+    .ani-resp {
+        position: absolute;
+        top: 87%;
+        width: 100%;
+    }
+
+    .full-animation>h1 {
+        font-size: 14px;
+    }
+
+    #page-4>h2 {
+        font-size: 23px;
+        padding: 27px 83px;
+        margin: 34px 0px -19px;
+        font-weight: 100;
+    }
+
+    .page-4-center {
+        width: 110vw;
+    }
+
+    .photos {
+        height: 0vh;
+        width: 153px
+    }
+
+    #page-5 {
+        height: 100vh;
+    }
+
+    .cards {
+        height: 90%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .card>h1 {
+        font-size: 27px;
+        top: 59%;
+    }
+
+    .card1 {
+        width: 90%;
+        height: 50%;
+    }
+
+    .card2 {
+        width: 90%;
+        height: 50%;
+    }
+
+    #page-5-full-anim {
+        margin-left: 20vw;
+    }
+    #page-6{
+        min-height: 30vh;
+    }
+    .slide>h1 {
+        font-size: 20px;
+    }
+
+    .footer-img {
+        height: 20%;
+    }
+
+    .footer-img>h1 {
+        font-size: 20px;
+        margin: 0px 15px;
+    }
+
+    #left-content {
+        top: 79%;
+        left: 34%;
+    }
+
+    #left-content>h1 {
+        font-size: 27px;
+    }
+
+    .footer-photo {
+        flex-direction: initial;
+        align-items: center;
+        left: 13%;
+        top: 65%;
+    }
+
+    .footer-photo>img {
+        margin-left: 20px;
+        height: 0%;
+        width: 17%;
+    }
+
+
+    .learn {
+        top: 45%;
+        right: 77%;
+    }
+
+    .explore {
+        right: 44%;
+    }
+
+    .find-us {
+        right: 7%;
+    }
+}
+
+@media (max-width:450px) {
+    #page-3-img4 {
+        height: 63vw;
+        top: 16%;
+        left: 19%;
+    }
+
+
+    #page-3-img2 {
+        height: 24vw;
+        top: 30%;
+    }
+
+
+    #page-3-right>h2 {
+        top: 50%;
+    }
+
+    #page-3-right>p {
+        top: 62%;
+    }
+
+    .ani-resp {
+        top: 72%;
+    }
+
+    #page-4>h2 {
+        padding: 0px 60px;
+        margin: -42px 0px -25px;
+    }
+
+    .card>h1 {
+        font-size: 20px;
+        top: 68%;
+    }
+
+
+
+}
+
+
+@media (max-width:350px) {
+    #page-3-img4 {
+        height: 63vw;
+        top: 11%;
+        left: 19%;
+    }
+
+
+    #page-3-img2 {
+        height: 24vw;
+        top: 21%;
+    }
+
+    #page-3-right>h2 {
+        top: 40%;
+    }
+
+    #page-3-right>p {
+        top: 52%;
+    }
+
+    .ani-resp {
+        top: 70%;
+    }
+
+    .photos {
+        width: 118px;
+    }
+
+    .card>h1 {
+        font-size: 15px;
+        top: 69%;
+    }
+
+}

@@ -1,0 +1,740 @@
+@font-face {
+    font-family: Cooper;
+    src: url(./CooperLtBTWXXLight.ttf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    /* font-family: Cooper */
+    font-family: gilroy;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* ============page-1============= */
+
+
+#page-1 {
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.navbar>h1 {
+    font-size: 1.5rem;
+    transition: all .4s ease;
+}
+
+.navbar>h1:hover {
+    cursor: pointer;
+    opacity: .7;
+    font-size: 1.3rem;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+}
+
+
+.navlist li {
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+
+.navlist li a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.navlist li a::after {
+    display: none;
+    content: "";
+    position: absolute;
+    height: 2px;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    background-color: springgreen;
+}
+
+.navlist li a:hover::after {
+    display: initial;
+}
+
+.contact {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+
+#A-Ani {
+    padding-left: 10px;
+}
+
+
+.anim {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    z-index: -1;
+    transition: all 0.3s ease-in;
+    background-color: springgreen;
+}
+
+.contact:hover .anim {
+    left: 0%;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.center-content>p {
+    font-size: 5vw;
+    margin-bottom: 3%;
+    margin-top: 15%;
+}
+
+
+.center-content u {
+    position: relative;
+    text-decoration: none;
+}
+
+.center-content u::after {
+    content: "";
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+    background-size: cover;
+}
+
+.anim-before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    width: 100%;
+    gap: 20px;
+}
+
+.S-Ani {
+    margin-left: 2%;
+}
+
+#home-page-img1 {
+    position: absolute;
+    height: 47%;
+    left: 5%;
+    top: 25%;
+    transition: all .4s ease;
+}
+
+#home-page-img1:hover {
+    top: 24%;
+}
+
+#home-page-img2 {
+    position: absolute;
+    height: 25%;
+    top: 12%;
+    left: 55%;
+    transition: all .4s ease;
+
+}
+
+#home-page-img2:hover {
+    top: 11%;
+}
+
+#home-page-img3 {
+    position: absolute;
+    height: 30%;
+    left: 70%;
+    top: 60%;
+    transition: all .4s ease;
+
+}
+
+#home-page-img3:hover {
+    top: 59%;
+}
+
+/* ============page-2============= */
+
+
+.page-2 {
+    width: 100%;
+    min-height: 90vh;
+    position: relative;
+    background-color: black;
+    color: #fff;
+}
+
+.page-2-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.page-2-center h3 {
+    position: relative;
+    font-weight: 100;
+    font-size: 1.4vw;
+    padding: 100px 0px 40px 0px;
+}
+
+.page-2-center h3::after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    border-radius: 50%;
+    background-color: springgreen;
+    width: 10px;
+    top: 65%;
+    left: -4%;
+}
+
+.page-2-center h2 {
+    font-weight: 100;
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+.page-2-center h2 u {
+    position: relative;
+    text-decoration: none;
+}
+
+.page-2-center h2 u::after {
+    content: "";
+    position: absolute;
+    height: 120%;
+    width: 120%;
+    left: -10%;
+    top: -10%;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    background-size: cover;
+}
+
+.anim-before>h1 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.T-Ani {
+    border: 2px solid white;
+}
+
+
+.T-Ani-2 {
+    z-index: 2;
+}
+
+
+#T-Ani-icon {
+    z-index: 3;
+}
+
+/* ============page-4============= */
+
+
+.page-3 {
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+}
+
+#page-3-left {
+    width: 50%;
+}
+
+#page-3-img1 {
+    height: 35vw;
+}
+
+#page-3-img2 {
+    height: 17vw;
+    position: absolute;
+    top: 37vw;
+    left: 0%;
+}
+
+#page-3-img3 {
+    height: 18vw;
+    position: absolute;
+    left: 13%;
+}
+
+#page-3-img4 {
+    height: 38vw;
+    left: 13%;
+    position: absolute;
+    top: 20vw;
+}
+
+#page-3-right {
+    width: 50%;
+    padding: 91px 74px 0px;
+}
+
+#page-3-right>h2 {
+    font-size: 3vw;
+    font-weight: 100;
+    padding: 31px 0px;
+}
+
+#page-3-right>p {
+    padding: 0px 45px 0px 0px;
+    font-size: 1.4vw;
+    line-height: 2.2vw;
+}
+
+.full-animation {
+    display: flex;
+    align-items: center;
+    margin: 45px 0px;
+}
+
+.photo {
+    height: 40px;
+    width: 40px;
+    background-image: url(https://images.unsplash.com/photo-1664978994141-70679e5d4d1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.full-animation>h1 {
+    font-size: 1.4vw;
+
+}
+
+#page-3-right u {
+    position: relative;
+    text-decoration: none;
+}
+
+#page-3-right u::after {
+    content: "";
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: -10%;
+    left: 0%;
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+    background-size: cover;
+}
+
+#page-4 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#page-4>h2 {
+    text-align: center;
+    font-size: 3vw;
+    padding: 16px 322px;
+    margin: 80px 0px 20px;
+    font-weight: 100;
+}
+
+.photos {
+    display: inline-block;
+    height: 160px;
+    width: 210px;
+    padding: 60px 20px;
+    /* background-color: yellow; */
+}
+
+.page-4-center {
+    padding: 0px 20px 0px 30px;
+    width: 80vw;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.photos img {
+    display: flex;
+    width: 75%;
+    object-fit: cover;
+}
+
+#page-4>h3 {
+    margin: auto;
+    font-family: "gilroy";
+    padding-bottom: 60px;
+}
+
+#page-4 h2 u {
+    position: relative;
+    text-decoration: none;
+}
+
+#page-4 h2 u::after {
+    content: "";
+    position: absolute;
+    height: 120%;
+    width: 120%;
+    left: -10%;
+    top: -10%;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    background-size: cover;
+}
+
+/* ===========page-5============= */
+
+#page-5 {
+    height: 100vh;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    display: flex;
+    gap: 40px;
+    margin-top: 7%;
+    height: 70%;
+    width: 80%;
+}
+
+.card1 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/work/Golf.jpeg?w=1200&h=900&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1635867985&s=5e7cee6801a656523b56b64a34d04786);
+    background-size: cover;
+    transition: all .4s ease;
+}
+
+.card1:hover {
+    height: 105%;
+}
+
+.card2 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/work/work-thumbnail-03.jpg?w=1200&h=900&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1627573623&s=efbebf8d2134c057c66886c970e18069);
+    background-size: cover;
+    transition: all .4s ease;
+}
+
+.card2:hover {
+    height: 105%;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.424);
+}
+
+.cards img {
+    position: absolute;
+    height: 10%;
+    top: 7%;
+    left: 7%;
+    object-fit: cover;
+}
+
+.card>h1 {
+    color: #fff;
+    font-weight: 100;
+    position: absolute;
+    top: 67%;
+    margin: 0px 40px;
+}
+
+.view-case {
+    /* background-color: red; */
+    color: #fff;
+    position: absolute;
+    top: 78%;
+    margin: 0px 40px;
+}
+
+.T-Ani-page-5 {
+    border: 2px solid white;
+}
+
+#page-5-full-anim {
+    width: 100%;
+    margin-left: 33vw;
+    padding: 10px 10px;
+}
+
+/* ===========page-6============= */
+
+#page-6 {
+    position: relative;
+   min-height: 80vh;
+}
+
+.scroller {
+    position: relative;
+    overflow-x: auto;
+    display: flex;
+    gap: 40px;
+    height: 90%;
+    width: 100%;
+}
+
+.scroller::-webkit-scrollbar {
+    display: none;
+}
+
+.slide {
+    position: relative;
+    flex-shrink: 0;
+    height: 100%;
+    width: 50%;
+    margin-left: 150px;
+}
+
+.slide:nth-last-child(1) {
+    margin-right: 150px;
+}
+
+.image>img {
+    width: 25%;
+    object-fit: cover;
+    display: block;
+    padding: 40px;
+    margin: auto;
+}
+
+.slide>h1 {
+    padding: 20px 0px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.slide>h3 {
+    text-align: center;
+    padding: 0px 0px 20px;
+}
+
+.slide>h4 {
+    opacity: .5;
+    text-align: center;
+}
+
+#page-6>i {
+    font-size: 40px;
+    position: absolute;
+    right: 2%;
+    top: 78%;
+}
+
+/* ===========footer============= */
+
+#footer {
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.footer-top {
+    height: 30vh;
+}
+
+.footer-bottom {
+    display: flex;
+    height: 70vh;
+    background-color: black;
+
+}
+
+.footer-img {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 45%;
+    width: 80%;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-239.jpg?w=1200&h=394&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002673&s=a8225dd79a8eb0d05ce0db6b2a5efd03);
+    background-size: cover;
+}
+
+.footer-img>h1 {
+    position: absolute;
+    color: #fff;
+    top: 10%;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px 84px;
+}
+
+#footer-anim {
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    margin: 0px 25vw;
+}
+
+
+.footer-img u {
+    position: relative;
+    text-decoration: none;
+}
+
+.footer-img u::after {
+    content: "";
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: -10%;
+    left: 0%;
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+    background-size: cover;
+}
+
+.footer-bottom-left {
+    color: #fff;
+    height: 100%;
+    width: 30%;
+}
+
+.footer-bottom-right {
+    display: flex;
+    height: 100%;
+    width: 70%;
+}
+
+#left-content {
+    position: absolute;
+    top: 57%;
+    left: 10%;
+}
+
+#left-content>h1 {
+    font-size: 3vw;
+    color: #fff;
+    font-weight: 100;
+}
+
+.footer-anim-2 {
+    padding: 22px 104px 0px 0px;
+}
+
+.learn {
+    position: absolute;
+    color: #fff;
+    top: 58%;
+    right: 60%;
+}
+
+.find-us {
+    position: absolute;
+    right: 25%;
+}
+
+.explore {
+    position: absolute;
+    right: 45%;
+}
+
+.learn>h2 {
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.learn>h3 {
+    cursor: pointer;
+    position: relative;
+    font-weight: 100;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+
+#left-content h1 u {
+    position: relative;
+    text-decoration: none;
+}
+
+#left-content h1 u::after {
+    content: "";
+    position: absolute;
+    height: 120%;
+    width: 120%;
+    left: -10%;
+    top: -10%;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    background-size: cover;
+}
+
+.footer-photo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: -10%;
+    top: 58%;
+}
+
+.footer-photo>img {
+    position: relative;
+    width: 23%;
+    margin-bottom: 30px;
+}
+
+.learn>h3::after {
+    display: none;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: springgreen;
+    top: 100%;
+    left: 0%;
+}
+
+.learn>h3:hover::after {
+    display: initial;
+}
